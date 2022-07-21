@@ -7,7 +7,7 @@ import scrapy
 
 
 class GuiaMidiaItem(scrapy.Item):
-    Categoria= scrapy.Field()
+    Categoria = scrapy.Field()
     title = scrapy.Field()
     link = scrapy.Field()
    
